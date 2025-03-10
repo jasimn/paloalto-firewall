@@ -3,7 +3,9 @@
 Log in to the Firewall:
 --------------------------------------------------------------------------------------------------
 Open a web browser and navigate to the management IP address of your Palo Alto firewall.
+
 Log in with an account that has administrative privileges.
+
 Navigate to the User Account Settings:
 Go to Device > Administrators.
 This will display a list of all user accounts configured on the firewall.
