@@ -6,16 +6,24 @@ Log in to the Firewall:
 Log in with an account that has administrative privileges.
 Navigate to the User Account Settings:
 Go to Device > Administrators.
+
 This will display a list of all user accounts configured on the firewall.
+
 Edit the User Account:
 Select the user account you want to modify.
+
 Click the Edit (pencil icon) button.
+
 Change the Username:
 Update the Username field if you want to change the username.
+
 Change the Password:
+
 Enter the new password in the Password and Confirm Password fields.
 Ensure the password meets the complexity requirements.
+
 Save Changes:
+
 Click OK to save the changes.**
 -------------------------------------------------------------------
 
