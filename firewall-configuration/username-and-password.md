@@ -2,10 +2,8 @@
 ##Method 1: Changing Username and Password via Web Interface (GUI)
 Log in to the Firewall:
 --------------------------------------------------------------------------------------------------
-Open a web browser and navigate to the management IP address of your Palo Alto firewall.
-
+**Open a web browser and navigate to the management IP address of your Palo Alto firewall.
 Log in with an account that has administrative privileges.
-
 Navigate to the User Account Settings:
 Go to Device > Administrators.
 This will display a list of all user accounts configured on the firewall.
@@ -18,12 +16,12 @@ Change the Password:
 Enter the new password in the Password and Confirm Password fields.
 Ensure the password meets the complexity requirements.
 Save Changes:
-Click OK to save the changes.
+Click OK to save the changes.**
 -------------------------------------------------------------------
 
--##Method 2: Changing Username and Password via CLI
+##Method 2: Changing Username and Password via CLI
 
--Log in to the Firewall via SSH or Console:
+Log in to the Firewall via SSH or Console:
 Use an SSH client (e.g., PuTTY) or a console cable to access the firewall's CLI.
 Log in with an account that has administrative privileges.
 Enter Configuration Mode:
