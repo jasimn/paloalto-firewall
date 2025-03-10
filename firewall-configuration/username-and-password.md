@@ -30,24 +30,34 @@ Click OK to save the changes.**
 ##Method 2: Changing Username and Password via CLI
 
 Log in to the Firewall via SSH or Console:
+
 Use an SSH client (e.g., PuTTY) or a console cable to access the firewall's CLI.
+
 Log in with an account that has administrative privileges.
 Enter Configuration Mode:
+
 Type configure and press Enter to enter configuration mode.
 Change the Username (Optional):
+
 To change the username, you need to delete the existing user and create a new one with the desired username.
 Delete the existing user:
 Copy
 `delete shared admin <old-username>`
+
 Create a new user with the updated username:
 Copy
+
 `set shared admin <new-username> superuser`
+
 Change the Password:
 Set the password for the user:
+
 Copy
 `set shared admin <username> password`
+
 You will be prompted to enter and confirm the new password.
 commit the Changes:
+
 Commit the configuration changes:
 Copy
 commit
